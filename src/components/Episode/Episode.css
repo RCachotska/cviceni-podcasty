@@ -1,0 +1,30 @@
+.episode {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.episode__num {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.episode__body {
+  flex-grow: 1;
+}
+
+.episode__title {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.episode__guest {
+  font-style: italic;
+  color: #666;
+}
